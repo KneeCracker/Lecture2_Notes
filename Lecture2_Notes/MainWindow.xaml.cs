@@ -21,6 +21,23 @@ namespace Lecture2_Notes
         public MainWindow()
         {
             InitializeComponent();
+
+            string userFirstName = txtfirstName.Text;
+
+            //message box
+            //MessageBox.Show(userFirstName);
+
+        }
+
+        private void btnPopUpMessage_Click(object sender, RoutedEventArgs e)
+        {
+            string userFirstName = txtfirstName.Text;
+
+            int a = 5;
+            int b = 3;
+            int sum = a + b;
+
+            MessageBox.Show(sum.ToString());
         }
     }
 }
