@@ -6,7 +6,32 @@
         xmlns:local="clr-namespace:Lecture2_Notes"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <!-- Layout Tag -->
+    
+    <Canvas>
+        
+        <Button
+            Content="Button"
+            Canvas.Left="345"
+            Canvas.Top="190" />
+        
+        <Label
+            Content="Label"
+            Canvas.Left="385"
+            Canvas.Top="233" />
+        
+        <TextBox
+            Canvas.Left="498"
+            TextWrapping="Wrap"
+            Text="TextBox"
+            Canvas.Top="341"
+            Width="120" />
 
-    </Grid>
+        <!--Button
+        TextBox
+        Label
+        MessageBox-->
+        
+    </Canvas>
+    
 </Window>
